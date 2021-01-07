@@ -1,4 +1,5 @@
-# BlockChainai2
-## Decentralized App
-# Zaidimu parduotuve
+# Smart-Contract
+## Išmaniosios sutarties ir
+decentralizuotos aplikacijos kūrimas
+# Elektroninių knygų parduotuvė
 
