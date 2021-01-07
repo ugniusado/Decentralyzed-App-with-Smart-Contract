@@ -1,5 +1,4 @@
 # Smart-Contract
-## Išmaniosios sutarties ir
-decentralizuotos aplikacijos kūrimas
+## Išmaniosios sutarties irdecentralizuotos aplikacijos kūrimas
 # Elektroninių knygų parduotuvė
 
