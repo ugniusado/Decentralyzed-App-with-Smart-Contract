@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body {
+  background-image: url('https://www.teahub.io/photos/full/190-1905135_background-images-of-books.png');
+}
+</style>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elektroninių knygų parduotuvė</title>
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      main {
+        margin-top: 60px;
+      }
+
+      #content {
+        display: none;
+      }
+
+      form {
+        width: 350px;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        margin-bottom: 0px;
+      }
+
+      #completedTaskList .content {
+        color: grey;
+        text-decoration: line-through;
+      }
+      .knyga:poPirkimo{
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar" target="_blank"><b><p style="font-size:22px" "color:red">Elektroninių knygų parduotuvė</b></a>
+        <br>
+        <div class="nav-item">Paskyra, prie kurios šiuo metu esatę prisijungę<div  id="account" style="font-size:20px">
+        </div>
+        </nav>
+        <b>Elektroninės knygos prekyboje</b>
+        <li>
+        <a class="knyga 1" href="https://milzinas.lt/negrozine-biografijos/pazadetoji-zeme/">Pažadėtoji žemė</li></a>
+          <li>
+        <a class="knyga 2" href="https://milzinas.lt/romanai/seimos-dramos/du-broliai-eknyga/">Du broliai</li></a>
+          <li>
+        <a class="knyga 3" href="https://milzinas.lt/jaunimui/sturmas-ir-audra-grisu-trilogija-antra-knyga/">Šturmas ir audra. Grišų trilogija. Antra knyga.</li></a>
+          <li>
+        <a class="knyga 4" href="https://milzinas.lt/grozine/atlantidos-atradimas/">Atlantidos atradimas</li></a>
+          <li>
+        <a class="knyga 5" href="https://milzinas.lt/saviugda/kelias-i-nusvitima">Kelias į Nušvitimą</li></a>
+      </ul>
+    
+<p></p><p></p><p></p><p></p>
+    <div class="container-fluid">
+          <b>Kurios elektroninės knygos pageidausite?</b>
+      <div class="row">
+        <main role="main">
+          <div id="loader" class="text-center">
+            <p class="text-center">Užsakymas ruošiamas</p>
+          </div>
+          <div id="content">
+            <form onSubmit="App.createTask(); return false;">
+              <input id="newTask" type="text" class="form-control" placeholder="Įveskite žaidimo pavadinimą.." required>
+              <input type="submit" hidden="">
+            </form>
+            <b>Elektroninės knygos, kurias reiks apmokėti</b>
+            <ul id="taskList" class="list-unstyled">
+              <div class="taskTemplate" class="checkbox" style="display: none">
+                <label>
+                  <input type="checkbox"/>
+                  <span class="content">Ką norite pirkti?</span>
+                </label>
+              </div>
+            </ul>
+            <ul id="completedTaskList" class="list-unstyled">
+            </ul>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
