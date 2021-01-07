@@ -1,2 +1,4 @@
-# Smart-Contract
-Išmaniosios sutarties ir decentralizuotos aplikacijos kūrimas
+# BlockChainai2
+## Decentralized App
+# Zaidimu parduotuve
+
